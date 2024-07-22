@@ -1,0 +1,239 @@
+.header {
+    width: 100%;
+    padding-left: 15px;
+    background: #55ff74;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.nav {
+    margin-left: auto; 
+}
+.nav > ul > li {
+    display:inline-block; /* переопределение в строчно-блочный */
+}
+.nav > ul > li > a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 1em;
+    color: #20af4a;
+    background: #55ff74;
+    -webkit-transition: 0.9s; /* плавный переход */
+    -moz-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+    color: #55ff74;
+    background: #20af4a;
+}
+
+.content {
+    min-height: 75vh;
+}
+  
+
+.footer {
+	background-color: #55ff74;
+	width: 100%;
+	height: 80px;
+	padding: 5px 15px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+    margin-top: auto;
+}
+.footer-link {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	margin-right: 10px;
+}
+ul {
+    list-style-type: none; /* Убирает буллиты */
+}
+
+.item{
+    padding: 20px 120px 20px 120px;
+    display: inline-block;
+}
+.item_border{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #20af4a;
+}
+.item_head{
+    color: #20af4a;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-link {
+    background: #20af4a;
+    display: block;
+    width: 115px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    float: right;
+}
+.item-char {
+    display: inline-block;
+    padding: 20px 8px 0 8px;
+}
+.border-top {
+    border-top: 2px solid #20af4a;
+    width: 65em;
+}
+.item-char_2 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 40px 8px 40px 8px;
+}
+.item-description {
+    font-size: 18px;
+}
+
+.desc {
+    padding: 10px 30px 10px 30px;
+}
+.desc_head {
+    color: #20af4a;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+}
+.params-table {
+    padding: 10px 20px 0 0;
+    float: right;
+    border: 2px solid #20af4a;
+    background-color: white;
+}
+.back-link {
+    background: #20af4a;
+    display: block;
+    width: 115px;
+    height: 25px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+.center-link {
+    background: #20af4a;
+    padding: 10px 150px 10px 150px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+.headline {
+    font-size: 25px;
+    border-bottom: 2px solid #20af4a;
+    width: 30em;
+}
+.details-text {
+    padding: 10px 20px 10px 0;
+    font-size: 20px;
+}
+
+.request-base {
+    padding: 30px 150px 30px 150px;
+}
+.request-form {
+    padding: 30px 10px 30px 10px;
+}
+.send-button {
+    background-color: #20af4a;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    height: 3em;
+}
+
+.table {
+    border: 2px solid #20af4a;
+    background-color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85em;
+}
+
+.filter-base {
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+}
+.filter {
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    min-width: 15em;
+}
+.label {
+    display: block;
+    color: #20af4a;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button {
+    background-color: #20af4a;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 8em;
+    height: 3em;
+}
+.red_head {
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+}
+
+.green_text {
+    color: #20af4a;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+.link-button {
+    color: #20af4a;
+    background-color: #55ff74;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.ant-btn:hover {
+    color: initial;
+    border: 1px solid #d9d9d9;
+}
+
+.auth-error-message {
+    text-align: center;
+    padding: 0 0 10px 0;
+}
